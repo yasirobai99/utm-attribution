@@ -1,0 +1,33 @@
+# Python virtual environments
+venv/
+env/
+.env
+__pycache__/
+
+# PostgreSQL data directory (binary data - do NOT commit)
+data/
+pgdata/
+
+# PostgreSQL logs and backups
+*.log
+*.backup
+
+# Power BI temporary files and backups
+*.pbix.bak
+*.tmp
+~$*
+
+# IDE and system files
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# OS files and temp files
+*.tmp
+*.bak
+
+# Ignore sensitive config with credentials
+config.ini
+credentials.json
+secrets.json
